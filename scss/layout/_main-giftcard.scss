@@ -1,0 +1,52 @@
+.contenedor-general-tarjeta {
+    width: 100%;
+    height: 100%;
+    grid-column: 1 /7;
+    grid-row: 2 / 9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: 1rem 0;
+    color: white;
+        img{
+            align-self: center;
+            width: 500px;
+        }
+        
+}
+.animacion-gif-card{
+    margin: 2rem;
+    text-align: center;
+    align-self: center;
+    border-radius: 1%;
+    animation-name: regala;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-duration: 0.5s;
+        p{
+                font-weight: 900;
+                font-size: 4rem;
+                margin: 0;
+            }
+}
+.contenedor-2-tarjeta {
+    grid-column: 1 /7;
+    grid-row: 9 / 11;
+}
+.contenedor-tarjetas {
+    background-color: black;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10px;
+        img{
+            width: 150px;
+            justify-self: center;
+            align-self: center;
+            margin: 10px;
+        }
+}
+

@@ -1,0 +1,43 @@
+header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    a{
+        img{
+            width: 7rem;
+        }
+    }
+}
+/******Pisar bootstrap*/
+
+.navbar-bottstrap {
+    display: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+}
+.navbar-nav {
+    text-align: center;
+}
+.navbar-toggler {
+    color: black;
+    border: 0px ;
+    font-size: 1rem;
+}
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+.navbar-toggler-icon{
+    background-image: url(../assets/img/icono-hamburguesa.png)
+}
+
+.navbar-nav a{
+background-color: black;
+padding: 2px 0;
+margin: 2px 0;
+width: 100%;
+color: white;
+}

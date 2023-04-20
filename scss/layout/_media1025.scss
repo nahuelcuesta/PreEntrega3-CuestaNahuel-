@@ -1,0 +1,38 @@
+@media (max-width:1025px) {
+/*****INDEX*/
+.container-main-1 {
+    h1{
+        font-size: 3rem;
+        text-align: left;
+        margin-left: 2%;
+    }
+    img{
+        justify-self: right;
+        margin-right: 5%;
+    }
+}
+.container-main-2{
+    img{
+        width: 60%;
+    }
+}
+    /*****CONTACTO*/
+    .bloque-contacto{
+        h2{
+            margin-top: 10%;
+        }
+    }
+    .iconos-redes{
+        a{
+            img{
+                width: 4rem;
+            }
+        }
+    }
+
+
+
+
+
+
+}

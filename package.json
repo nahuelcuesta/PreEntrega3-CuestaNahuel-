@@ -1,0 +1,11 @@
+{
+  "name": "preentrega3-cuestanahuel",
+  "version": "1.0.0",
+  "description": "****\r # Informacion general: \r Este sitio web esta creado para una empresa que realiza relojes de cemento\r ***\r # Herramientas utilizadas:\r -HTML, CSS, BOTSTRAP\r ***\r #Paginas 100% responsive: \r -index\r -contacto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,21 @@
+.container-navbar-paginas {
+    grid-column: 1 / 7;
+    grid-row: 1 / 2;
+        div{
+            nav{
+                ul{
+                    background-color: black;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: space-evenly;
+                    list-style-type: none;
+                    margin-top: 0.5%;
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            font-weight: 900;
+                        }
+                }
+            }
+        }
+}

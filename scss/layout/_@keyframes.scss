@@ -1,0 +1,110 @@
+@keyframes borde {
+    0%{
+        border: 1rem solid black;
+    }
+    25%{
+        border: 2rem dashed rgb(8, 10, 19);
+        border-radius: 50%;
+    }
+    50%{
+        border: 1rem dashed rgb(151, 151, 151);
+        border-radius: 5%;
+    }
+    75%{
+        border:2rem dashed rgb(255, 161, 173);
+        transform: translate(0vw,0);
+        border-radius: 5%;
+    }
+    100%{
+        border: 10rem solid rgb(0, 0, 0);
+        border-radius: 10%;
+        transform: translate(100vw,0);
+    }
+}
+@keyframes conteo-3 {
+    0%{
+       
+    }
+    25.9%{
+        transform: translate(0vw,0);
+    }
+    26%{
+        transform: translate(100vw,0);
+    }
+    100%{
+        transform: translate(200vw,0);
+    }
+    }
+   @keyframes conteo-2 {
+      0%{
+        transform: translate(300vw,0);
+    }
+    27.9%{
+        transform: translate(100vw,0);
+    }
+    28%{
+        transform: translate(0vw,0);
+    }
+    50.9%{
+        transform: translate(0vw,0);
+    }
+    51%{
+        transform: translate(100vw,0);
+    }
+    100%{ 
+        transform: translate(200vw,0);
+    }
+      
+   }
+   @keyframes conteo-1 {
+    0%{
+        transform: translate(200vw,0);
+    }
+    51.9%{
+        transform: translate(100vw,0);
+    }
+    52%{
+        transform: translate(0vw,0);
+    }
+        75.9%{
+        transform: translate(0vw,0);
+    }
+    76%{ 
+        transform: translate(100vw,0);
+    }
+       100%{
+        transform: translate(200vw,0);
+       }
+   }
+   @keyframes intro-index {
+    0% {
+        transform: translate(100vw,0);
+    }
+    25%{
+        transform: translate(100vw,0);
+    }
+    75%{
+        transform: translate(100vw,0);
+    }
+    100%{
+        transform: translate(0vw,0);
+    }
+}
+@keyframes regala {
+    25%{
+ background-color: white;
+ color: black;
+     }
+     50%{
+         background-color: black;
+         color: white;
+     }
+    75%{
+     background-color: white;
+     color: black;
+     }
+     100%{
+         background-color: black;
+         color: white;
+     }
+ }
