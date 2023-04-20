@@ -4,8 +4,6 @@
 Este sitio web esta creado para una empresa que realiza relojes de cemento
 ***
 # Herramientas utilizadas:
--HTML, CSS, BOTSTRAP
+-HTML, CSS, BOTSTRAP, SASS, ANIMACIONES
 ***
-#Paginas 100% responsive: 
--index
--contacto
+Proyecto 100% responsive: 
