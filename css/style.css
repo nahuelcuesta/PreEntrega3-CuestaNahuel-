@@ -554,15 +554,16 @@ main {
 
 .contenedor-tarjetas {
   background-color: black;
-  height: 8rem;
+  height: 5rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   padding: 0 10px;
+  margin-top: 2rem;
 }
 .contenedor-tarjetas img {
-  width: 150px;
+  width: 100px;
   justify-self: center;
   align-self: center;
   margin: 10px;
@@ -961,6 +962,9 @@ legend {
   .contenedor-tarjetas {
     height: 5rem;
     margin: 1.5rem 0;
+  }
+  .contenedor-tarjetas img {
+    width: 80px;
   }
   .tarjeta-individual {
     width: 100px;

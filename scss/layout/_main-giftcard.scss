@@ -36,14 +36,15 @@
 }
 .contenedor-tarjetas {
     background-color: black;
-    height: 8rem;
+    height: 5rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     padding: 0 10px;
+    margin-top: 2rem ;
         img{
-            width: 150px;
+            width: 100px;
             justify-self: center;
             align-self: center;
             margin: 10px;
