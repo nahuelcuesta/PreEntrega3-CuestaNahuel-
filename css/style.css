@@ -870,7 +870,7 @@ legend {
   }
   .container-main-1 img {
     order: 1;
-    height: 90%;
+    height: 85%;
   }
   .contenedor-links a {
     font-size: 0.7rem;
@@ -1114,6 +1114,9 @@ legend {
   /*****PRODUCTOS*/
   .lista-caracteristicas img {
     width: 80%;
+  }
+  .contenedor-tarjetas a img {
+    width: 70px;
   }
 }
 @media (max-width: 321px) {
