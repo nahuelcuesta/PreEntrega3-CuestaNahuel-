@@ -12,7 +12,8 @@ main {
     order: 0;
     background-color: white;
     height: 90%;
-    width: 100%;
+    width: 90%;
+    justify-self: center;
     margin: 2rem 0;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -26,6 +27,9 @@ border: 2rem solid black;
 animation-name: borde;
 animation-iteration-count: 1;
 animation-duration: 3s;
+                img{
+                    width: 80%;
+                }
 }
 .numero-3 {
     width: 100%;
@@ -87,10 +91,9 @@ animation-duration: 3s;
         text-shadow: rgb(0, 0, 0) 1px 1px 5px;
     span{
         font-size: 7rem;
-    }
-    }
+        }
+      }
     img{
-        
     height: 95%;
     grid-column: 2 / 4;
     grid-row: 1 / 11;

@@ -184,7 +184,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  width: 100%;
+  width: 100vw;
   font-size: 0.5rem;
   margin-top: 1rem;
 }
@@ -213,8 +213,7 @@ main {
   order: 0;
   background-color: white;
   height: 90%;
-  width: 90%;
-  justify-self: center;
+  width: 100%;
   margin: 2rem 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -228,9 +227,6 @@ main {
   animation-name: borde;
   animation-iteration-count: 1;
   animation-duration: 3s;
-}
-.animacion-index img {
-  width: 80%;
 }
 
 .numero-3 {
@@ -460,7 +456,6 @@ main {
   align-items: center;
   background-color: black;
   color: white;
-  font-size: 0.8rem;
 }
 .section-productos img {
   width: 90%;
@@ -533,11 +528,11 @@ main {
 }
 .contenedor-general-tarjeta img {
   align-self: center;
-  width: 450px;
+  width: 500px;
 }
 
 .animacion-gif-card {
-  margin: 1rem;
+  margin: 2rem;
   text-align: center;
   align-self: center;
   border-radius: 1%;
@@ -548,7 +543,7 @@ main {
 }
 .animacion-gif-card p {
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin: 0;
 }
 
@@ -567,14 +562,11 @@ main {
   padding: 0 10px;
   margin-top: 2rem;
 }
-.contenedor-tarjetas a img {
+.contenedor-tarjetas img {
   width: 100px;
   justify-self: center;
   align-self: center;
   margin: 10px;
-}
-.contenedor-tarjetas a img:hover {
-  width: 115px;
 }
 
 .bloque-contacto {
@@ -714,9 +706,6 @@ legend {
     justify-self: right;
     margin-right: 5%;
   }
-  .contenedor-links a {
-    font-size: 1.5rem;
-  }
   .container-main-2 img {
     width: 60%;
   }
@@ -726,13 +715,6 @@ legend {
   }
   .iconos-redes a img {
     width: 4rem;
-  }
-  /*****CONTACTO*/
-  .container-article-nosotros h2 {
-    font-size: 3.5rem;
-  }
-  .imagenes-article img {
-    width: 100px;
   }
 }
 @media (max-width: 769px) {
@@ -758,10 +740,6 @@ legend {
   .container-main-2 img {
     width: 75%;
   }
-  /*****NAVBAR PAGINAS*/
-  .container-navbar-paginas div nav ul a {
-    font-size: 0.8rem;
-  }
   /*****CONTACTO*/
   .iconos-redes a img {
     width: 2.5rem;
@@ -774,7 +752,7 @@ legend {
     margin-top: 0rem;
   }
   legend {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   form p {
     font-size: 1.5rem;
@@ -783,9 +761,6 @@ legend {
     grid-column: 1/2;
     grid-row: 6/7;
     align-self: center;
-  }
-  input {
-    font-size: 0.6rem;
   }
   /*****NOSOTROS*/
   .container-article-nosotros {
@@ -819,9 +794,6 @@ legend {
   .contenedor-general-tarjeta {
     padding: 1rem;
   }
-  .contenedor-general-tarjeta img {
-    width: 400px;
-  }
   .animacion-gif-card {
     display: flex;
     flex-direction: row;
@@ -829,7 +801,7 @@ legend {
   }
   .animacion-gif-card p {
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 3rem;
     padding: 0 1rem;
   }
   /*****PRODUCTOS*/
@@ -855,60 +827,10 @@ legend {
     grid-row: 1/2;
   }
 }
-@media (max-width: 717px) {
-  /******INDEX*/
-  .container-main-1 nav {
-    order: 3;
-  }
-  .container-main-1 h1 {
-    order: 2;
-    font-size: 2rem;
-  }
-  .container-main-1 h1 span {
-    font-size: 5rem;
-  }
-  .container-main-1 img {
-    order: 1;
-    height: 90%;
-  }
-  .contenedor-links a {
-    font-size: 0.7rem;
-  }
-  .ancho-1 {
-    width: 75%;
-    height: 85%;
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-  .ancho-2 {
-    width: 85%;
-    height: 85%;
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-  .ancho-3 {
-    width: 95%;
-    height: 85%;
-    grid-column: 1/2;
-    grid-row: 3/4;
-  }
-  .ancho-4 {
-    width: 100%;
-    height: 85%;
-    grid-column: 1/2;
-    grid-row: 4/5;
-  }
-  /*****NOSOTROS*/
-  .container-article-nosotros h2 {
-    font-size: 3.8rem;
-  }
-  .imagenes-article {
-    flex-flow: row wrap;
-  }
-  .imagenes-article img {
-    width: 100px;
-  }
+.container-main-1 h1 span {
+  font-size: 4rem;
 }
+
 @media (max-width: 426px) {
   /*****INDEX*/
   .container-main-1 img {
@@ -1193,4 +1115,4 @@ legend {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css.style.css.map */

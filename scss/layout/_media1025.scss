@@ -11,6 +11,11 @@
         margin-right: 5%;
     }
 }
+.contenedor-links {
+    a{
+   font-size: 1.5rem;
+     }
+}
 .container-main-2{
     img{
         width: 60%;
@@ -29,10 +34,15 @@
             }
         }
     }
-
-
-
-
-
-
+        /*****CONTACTO*/
+        .container-article-nosotros {
+                h2{
+                    font-size: 3.5rem;
+                }
+            }
+        .imagenes-article {
+                img{
+                    width: 100px;  
+                }
+        }
 }
