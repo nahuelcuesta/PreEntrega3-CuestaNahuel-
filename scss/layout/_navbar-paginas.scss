@@ -4,14 +4,14 @@
         div{
             nav{
                 ul{
-                    background-color: black;
+                    background-color: $background-principal;
                     display: flex;
                     flex-flow: row nowrap;
                     justify-content: space-evenly;
                     list-style-type: none;
                     margin-top: 0.5%;
                         a{
-                            color: white;
+                            color: $color-principal;
                             text-decoration: none;
                             font-weight: 900;
                         }

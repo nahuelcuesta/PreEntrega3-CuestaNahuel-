@@ -1,8 +1,6 @@
 footer {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: $background-principal;
+    @include flex( flex, space-between, center, none, none );
     height: 10vh;
     width: 100%;
     font-size: 0.5rem;
@@ -13,7 +11,7 @@ footer {
             height: 50%;
         }
         p{
-            color: white;
+            color:$color-principal;
             padding-right: 2%;
         }
 }

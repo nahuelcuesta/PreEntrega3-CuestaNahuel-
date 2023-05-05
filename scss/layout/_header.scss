@@ -1,8 +1,6 @@
 header {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color:$background-principal;
+    @include flex( flex, center, center, none, none );
     height: 10vh;
     width: 100%;
     a{
@@ -23,7 +21,7 @@ header {
     text-align: center;
 }
 .navbar-toggler {
-    color: black;
+    color: $color-secundario;
     border: 0px ;
     font-size: 1rem;
 }
@@ -35,9 +33,9 @@ header {
 }
 
 .navbar-nav a{
-background-color: black;
+background-color: $background-principal;
 padding: 2px 0;
 margin: 2px 0;
 width: 100%;
-color: white;
+color: $color-principal;
 }

@@ -3,12 +3,10 @@
     height: 100%;
     grid-column: 1 /7;
     grid-row: 2 / 9;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: black;
+    @include flex( flex, space-evenly, none, none, wrap );
+    background-color: $background-principal;
     margin: 1rem 0;
-    color: white;
+    color: $color-principal;
         img{
             align-self: center;
             width: 450px;
@@ -35,12 +33,9 @@
     grid-row: 9 / 11;
 }
 .contenedor-tarjetas {
-    background-color: black;
+    background-color: $background-principal;
     height: 5rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
+    @include flex( flex, space-evenly, center, none, wrap );
     padding: 0 10px;
     margin-top: 2rem ;
     a{

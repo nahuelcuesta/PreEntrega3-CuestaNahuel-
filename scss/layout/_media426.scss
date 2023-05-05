@@ -5,7 +5,7 @@
         img {
             justify-self: center;
             align-self: center;
-            height: 20%;
+            height: 60%;
             grid-column: 1 / 7;
             grid-row: 1 / 11;
         }
@@ -33,7 +33,7 @@ footer{
 }
 /*****HEADER*/
 header {
-    background-color: black;
+    background-color: $background-principal;
 }
 .logo-header {
     display: none;
@@ -185,6 +185,4 @@ input {
     padding: 0rem;
     justify-content: space-evenly;
 }
-
-
 }
