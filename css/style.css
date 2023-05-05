@@ -915,7 +915,7 @@ legend {
   .container-main-1 img {
     justify-self: center;
     align-self: center;
-    height: 80%;
+    height: 20%;
     grid-column: 1/7;
     grid-row: 1/11;
   }
@@ -1045,8 +1045,11 @@ legend {
     height: 5rem;
     margin: 1.5rem 0;
   }
-  .contenedor-tarjetas img {
+  .contenedor-tarjetas a img {
     width: 80px;
+  }
+  .contenedor-tarjetas a img:hover {
+    width: 95px;
   }
   .tarjeta-individual {
     width: 100px;
@@ -1099,7 +1102,7 @@ legend {
     grid-row: 1/10;
     margin: 1rem 0;
   }
-  .contenedor-general-tarjeta img {
+  .contenedor-general-tarjeta a img {
     width: 250px;
   }
   .animacion-gif-card p {
@@ -1130,7 +1133,7 @@ legend {
     order: 1;
   }
   .container-main-1 img {
-    height: 10%;
+    height: 55%;
     grid-column: 1/7;
     grid-row: 1/11;
     margin: 0;
